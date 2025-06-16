@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link href="./style/index.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8" />
+  <title>InitPage</title>
+</head>
+<body>
+  <header>
+    <div class= "home-button">
+       <button id="home-button" onclick="window.location.href='index.html'">MENÚ PRINCIPAL</button>
+    </div>
+    <h1 class="webtitle">CITYEXPLORER</h1>
+    <aside class="userpanel">
+        <button id="login-button" onclick="window.location.href='register.html'">INICIAR SESION</button>
+        <button id="logout-button" onclick="logoutUsuario()" class="up_boton">CERRAR SESION</button>
+        <b id="usr" class="usr"></b>
+    </aside>
+  </header>
+  <h2 class="subtitle">Elige una ciudad para explorar</h2>
+  <div class="container">
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Almería'"><b class="texto_nota">Almería</b><b id="id-Almería" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Antequera'"><b class="texto_nota">Antequera</b><b id="id-Antequera" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Aranjuez'"><b class="texto_nota">Aranjuez</b><b id="id-Aranjuez" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Barcelona'"><b class="texto_nota">Barcelona</b><b id="id-Barcelona" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Bilbao'"><b class="texto_nota">Bilbao</b><b id="id-Bilbao" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Burgos'"><b class="texto_nota">Burgos</b><b id="id-Burgos" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Cartagena'"><b class="texto_nota">Cartagena</b><b id="id-Cartagena" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Cáceres'"><b class="texto_nota">Cáceres</b><b id="id-Cáceres" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Cuenca'"><b class="texto_nota">Cuenca</b><b id="id-Cuenca" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Don Benito'"><b class="texto_nota">Don Benito</b><b id="id-Don Benito" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Getafe'"><b class="texto_nota">Getafe</b><b id="id-Getafe" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Gijón'"><b class="texto_nota">Gijón</b><b id="id-Gijón" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Granada'"><b class="texto_nota">Granada</b><b id="id-Granada" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Las Rozas de Madrid'"><b class="texto_nota">Las Rozas de Madrid</b><b id="id-Las Rozas de Madrid" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Leganés'"><b class="texto_nota">Leganés</b><b id="id-Leganés" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=León'"><b class="texto_nota">León</b><b id="id-León" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Logroño'"><b class="texto_nota">Logroño</b><b id="id-Logroño" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Lorca'"><b class="texto_nota">Lorca</b><b id="id-Lorca" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Madrid'"><b class="texto_nota">Madrid</b><b id="id-Madrid" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Marbella'"><b class="texto_nota">Marbella</b><b id="id-Marbella" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Melilla'"><b class="texto_nota">Melilla</b><b id="id-Melilla" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Oviedo'"><b class="texto_nota">Oviedo</b><b id="id-Oviedo" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Palma de Mallorca'"><b class="texto_nota">Palma de Mallorca</b><b id="id-Palma de Mallorca" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Pamplona'"><b class="texto_nota">Pamplona</b><b id="id-Pamplona" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Plasencia'"><b class="texto_nota">Plasencia</b><b id="id-Plasencia" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Puerto Real'"><b class="texto_nota">Puerto Real</b><b id="id-Puerto Real" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Reus'"><b class="texto_nota">Reus</b><b id="id-Reus" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Salamanca'"><b class="texto_nota">Salamanca</b><b id="id-Salamanca" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Santa Cruz de Tenerife'"><b class="texto_nota">Santa Cruz de Tenerife</b><b id="id-Santa Cruz de Tenerife" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Santander'"><b class="texto_nota">Santander</b><b id="id-Santander" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Sevilla'"><b class="texto_nota">Sevilla</b><b id="id-Sevilla" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Soria'"><b class="texto_nota">Soria</b><b id="id-Soria" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Talavera de la Reina'"><b class="texto_nota">Talavera de la Reina</b><b id="id-Talavera de la Reina" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Toledo'"><b class="texto_nota">Toledo</b><b id="id-Toledo" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Tomelloso'"><b class="texto_nota">Tomelloso</b><b id="id-Tomelloso" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Valencia'"><b class="texto_nota">Valencia</b><b id="id-Valencia" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Vigo'"><b class="texto_nota">Vigo</b><b id="id-Vigo" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Vitoria'"><b class="texto_nota">Vitoria</b><b id="id-Vitoria" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Zamora'"><b class="texto_nota">Zamora</b><b id="id-Zamora" class="nota"></b></button>
+  <button class="city-boton" onclick="window.location.href='ciudades.html?ciudad=Zaragoza'"><b class="texto_nota">Zaragoza</b><b id="id-Zaragoza" class="nota"></b></button>
+  </div>
+<footer>
+    <p class="footer-text">
+      <a href="http://localhost:3000/">Cityexplorer</a> © 2025 by <a href="https://creativecommons.org">Jaime Vaquero</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+    </p>
+    <a href="./privacy.html" class="footer-link">Política de privacidad y uso de datos</a>
+</footer>
+  <script src="socket.js"></script>
+  <script src="web.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "Lorca": {
+    "Servicios de transporte público": "Necesitamos AVE a Almería",
+    "Limpieza": "Buena empresa de limpieza",
+    "Nivel de turismo": "No hay mucho que ver",
+    "Seguridad": "Pocos crímenes donde residí"
+  },
+  "Getafe": {
+    "Servicios de transporte público": "Los cercanías con poca frecuencia, pero al menos hay bastantes",
+    "Medio ambiente": "Puro trafico y poco verde",
+    "Seguridad": "Hay barrios buenos, y bastante peligrosos"
+  },
+  "Tomelloso": {
+    "Servicios de transporte público": "Por favor, luchad por el AVE a Jaén",
+    "Actividades económicas": "Hay empleo en el polígono",
+    "Estilo arquitectónico": "Todo muy grande",
+    "Nivel de turismo": "Almagro no está lejos"
+  }
+}

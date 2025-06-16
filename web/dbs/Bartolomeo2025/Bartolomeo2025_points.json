@@ -1,0 +1,41 @@
+{
+  "Lorca": {
+    "Servicios de transporte público": 4,
+    "Limpieza": 4.5,
+    "Actividades económicas": 4,
+    "Estilo arquitectónico": 3.5,
+    "Importancia histórica": 4,
+    "Nivel de turismo": 2.5,
+    "Nivel educativo": 4.5,
+    "Calidad de vida": 4,
+    "Medio ambiente": 3,
+    "Seguridad": 4.5,
+    "total": 3.85
+  },
+  "Getafe": {
+    "Servicios de transporte público": 4,
+    "Limpieza": 3.5,
+    "Actividades económicas": 4,
+    "Estilo arquitectónico": 3,
+    "Importancia histórica": 2,
+    "Nivel de turismo": 1.5,
+    "Nivel educativo": 4,
+    "Calidad de vida": 4,
+    "Medio ambiente": 2,
+    "Seguridad": 3.5,
+    "total": 3.15
+  },
+  "Tomelloso": {
+    "Servicios de transporte público": 2.5,
+    "Limpieza": 3,
+    "Actividades económicas": 4,
+    "Estilo arquitectónico": 4,
+    "Importancia histórica": 3,
+    "Nivel de turismo": 2.5,
+    "Nivel educativo": 4,
+    "Calidad de vida": 4,
+    "Medio ambiente": 3.5,
+    "Seguridad": 4,
+    "total": 3.45
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Plasencia": {
+    "Servicios de transporte público": 2.5,
+    "Limpieza": 3,
+    "Actividades económicas": 3.5,
+    "Estilo arquitectónico": 4.5,
+    "Importancia histórica": 4.5,
+    "Nivel de turismo": 4.5,
+    "Nivel educativo": 4,
+    "Calidad de vida": 4.5,
+    "Medio ambiente": 5,
+    "Seguridad": 3,
+    "total": 3.9
+  },
+  "Cáceres": {
+    "Servicios de transporte público": 3,
+    "Limpieza": 3.5,
+    "Actividades económicas": 3.5,
+    "Estilo arquitectónico": 5,
+    "Importancia histórica": 4.5,
+    "Nivel de turismo": 4.5,
+    "Nivel educativo": 4.5,
+    "Calidad de vida": 4.5,
+    "Medio ambiente": 4,
+    "Seguridad": 4,
+    "total": 4.1
+  },
+  "Salamanca": {
+    "Servicios de transporte público": 3.5,
+    "Limpieza": 4,
+    "Actividades económicas": 5,
+    "Estilo arquitectónico": 5,
+    "Importancia histórica": 4.5,
+    "Nivel de turismo": 4.5,
+    "Nivel educativo": 5,
+    "Calidad de vida": 4.5,
+    "Medio ambiente": 4,
+    "Seguridad": 3.5,
+    "total": 4.35
+  },
+  "Lorca": {
+    "Servicios de transporte público": 3.5,
+    "Limpieza": 3,
+    "Actividades económicas": 3,
+    "Estilo arquitectónico": 4,
+    "Importancia histórica": 4,
+    "Nivel de turismo": 2.5,
+    "Nivel educativo": 3,
+    "Calidad de vida": 4,
+    "Medio ambiente": 3.5,
+    "Seguridad": 5,
+    "total": 3.55
+  }
+}

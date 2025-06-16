@@ -1,0 +1,119 @@
+header {
+    background-color: lightsalmon;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    border: 3px solid black;
+}
+
+body {
+    background-color: olivedrab;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.home-button {
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    width: 15%;
+}
+
+.home-button > button, .userpanel > button {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.usr{
+    font-size: large;
+    color: black;
+    margin: 2px;
+    background-color: white;
+}
+
+.webtitle {
+    font-size: xx-large;
+    text-align: center;
+    width: 70%;
+}
+
+.userpanel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+.up_boton {
+    border: 2px solid black;
+    font-size: medium;
+    background-color: white;
+    margin: 5px;
+    color: black;
+}
+
+
+.container {
+    column-count: 5;       
+    column-gap: 40px;      
+    width: 1200px;         
+    margin: 20px auto;
+    min-height: 435px;
+}
+
+
+.city-boton {
+    display:flex;
+    flex-direction: row;
+    align-items: center; 
+    border: 2px solid black;
+    font-size: medium;
+    background-color: white;
+    margin: 5px;
+    color: black;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+}
+.city-boton:hover {
+    background-color: #eee;
+}
+
+.texto_nota{
+    width: 80%;
+    font-size: large;
+    text-align: left; 
+    padding-left: 2px;
+}
+
+.nota{
+    width: 20%;
+    font-size: large;
+    justify-content: center;
+    text-align: right; 
+}
+
+footer {
+    margin-top: auto;
+    background-color: lightsalmon;
+    text-align: center;
+    border: 2px solid black;
+    bottom: 0%;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 99%;
+    height: 80px;
+}
+
+footer > p, a{
+    color: black;
+    font-size: medium;
+}

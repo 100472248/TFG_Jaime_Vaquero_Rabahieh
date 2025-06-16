@@ -1,0 +1,21 @@
+.comentarios-panel {
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 8px;
+}
+.comentario {
+  margin-bottom: 6px;
+  padding-left: 10px;
+  border-left: 2px solid #009;
+}
+.ver-comentarios-btn {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.contenedor-ciudad{
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+  min-height: 2000px;
+}

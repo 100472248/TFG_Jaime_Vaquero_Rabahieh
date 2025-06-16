@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link href="./style/index.css" rel="stylesheet" type="text/css">
+  <link href="./style/ciudades.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8" />
+  <title>InitPage</title>
+</head>
+<body>
+  <header>
+    <div class= "home-button">
+       <button id="home-button" onclick="window.location.href='index.html'">MENÚ PRINCIPAL</button>
+    </div>
+    <h1 class="webtitle">CITYEXPLORER</h1>
+    <aside class="userpanel">
+        <button id="login-button" onclick="window.location.href='register.html'">INICIAR SESION</button>
+        <button id="logout-button" onclick="logoutUsuario()" class="up_boton">CERRAR SESION</button>
+        <b id="usr" class="usr"></b>
+    </aside>
+  </header>
+  <div id="contenedor-ciudad"></div>
+<footer>
+    <p class="footer-text">
+      <a href="http://localhost:3000/">Cityexplorer</a> © 2025 by <a href="https://creativecommons.org">Jaime Vaquero</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+    </p>
+    <a href="./privacy.html" class="footer-link">Política de privacidad y uso de datos</a>
+</footer>
+  <script src="socket.js"></script>
+  <script src="web.js"></script>
+  <script src="ciudades.js"></script>
+</body>
+</html>
