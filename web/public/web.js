@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", async () => {
       }
     }
   } catch (e) {
-    console.error("❌ Error sincronizando usuarios:", e);
+    console.error("Error sincronizando usuarios:", e);
   }
 
   // 2. Sincroniza general_data global
@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", async () => {
       localStorage.setItem("general_data", JSON.stringify(general));
     }
   } catch (e) {
-    console.error("❌ Error sincronizando general_data:", e);
+    console.error("Error sincronizando general_data:", e);
   }
 });
 

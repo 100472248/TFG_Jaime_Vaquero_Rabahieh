@@ -192,16 +192,16 @@ Tu tarea es EXTRAER o INFERIR los siguientes datos, de forma clara, literal y co
   → "Sistema de transporte público (metro, autobuses, trenes, etc.)"
   → "Limpieza y gestión de residuos"
 
-🔎 Devuelve la respuesta en **formato JSON**, con las siguientes claves exactamente como están escritas:
+Devuelve la respuesta en **formato JSON**, con las siguientes claves exactamente como están escritas:
 """
     for dato in datos:
         prompt += f'- {dato}\n'
     prompt += f"""
 
-📄 Texto de Wikipedia (incompleto, solo como referencia inicial):
+Texto de Wikipedia (incompleto, solo como referencia inicial):
 \"\"\"{texto}\"\"\"
 
-📤 Formato de salida:
+Formato de salida:
 {{
   "País": "...",
   "Comunidad autónoma": "...",
@@ -225,23 +225,23 @@ def generar_prompt_otras_fuentes(ciudad, texto, datos):
     prompt = f"""
 Eres un asistente experto en análisis de información sobre ciudades. A continuación, se te proporciona un texto relacionado con la ciudad de {ciudad}, que puede provenir de fuentes diversas (noticias, blogs, artículos, etc.).
 
-🎯 TU OBJETIVO:
+TU OBJETIVO:
 Intentar extraer o inferir la información correspondiente a las siguientes categorías. Sigue el orden propuesto lo mejor posible.
 
-⚠️ INSTRUCCIONES:
+INSTRUCCIONES:
 - Si el dato aparece claramente en el texto: extráelo.
 - Si puede deducirse con razonable certeza: infiérelo.
 - Si no se menciona o no es claro: escribe **"No disponible"**.
 - Aunque algunas categorías no tengan datos, incluye todas en la salida final.
 - El resultado debe presentarse en formato JSON.
 
-📌 Categorías sugeridas:
+Categorías sugeridas:
 """ + "\n".join(f"- {d}" for d in datos) + f"""
 
-📄 Texto disponible:
+Texto disponible:
 \"\"\"{texto}\"\"\"
 
-📤 Formato de salida (JSON completo, incluso con "No disponible"):
+Formato de salida (JSON completo, incluso con "No disponible"):
 {{
   "País": "...",
   "Comunidad autónoma": "...",

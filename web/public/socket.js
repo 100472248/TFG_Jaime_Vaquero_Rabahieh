@@ -15,7 +15,7 @@ function mostrarError(mensaje) {
                 <div style="
                     background: white; padding: 20px; border-radius: 8px; max-width: 400px;
                     font-family: sans-serif; box-shadow: 0 0 10px #000;">
-                    <h3 style="color: #b00; margin-top: 0;">⚠️ Error</h3>
+                    <h3 style="color: #b00; margin-top: 0;">Error</h3>
                     <p id="modal-error-msg" style="margin: 0 0 10px;"></p>
                     <button onclick="cerrarError()" style="
                         background: #b00; color: white; border: none; padding: 8px 12px; border-radius: 4px;
@@ -28,7 +28,7 @@ function mostrarError(mensaje) {
 
     document.getElementById("modal-error-msg").innerText = mensaje;
     document.getElementById("modal-error-bg").style.display = "flex";
-    console.error("❌ " + mensaje);
+    console.error(mensaje);
 }
 
 function cerrarError() {

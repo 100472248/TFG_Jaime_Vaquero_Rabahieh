@@ -611,7 +611,7 @@
         "País": "España",
         "Comunidad autónoma": "Andalucía",
         "Provincia": "Cádiz",
-        "Número de habitantes": "Aproximadamente 41.700 habitantes",
+        "Número de habitantes": "41.700",
         "Servicios de transporte público": "Cuenta con autobuses interurbanos, estación de tren con servicios regionales y cercanías hacia Cádiz y Jerez, además de buenas conexiones por carretera.",
         "Limpieza": "Servicios municipales básicos de limpieza y gestión de residuos urbanos.",
         "Actividades económicas": "Las principales actividades incluyen la construcción naval (astilleros), pesca, comercio local y actividades relacionadas con el sector portuario.",
@@ -624,19 +624,19 @@
         "Seguridad": "Ciudad segura con servicios básicos efectivos por parte de la Policía Local y Guardia Civil."
     },
     "Lorca": {
-    "País": "España",
-    "Comunidad autónoma": "Región de Murcia",
-    "Provincia": "Murcia",
-    "Número de habitantes": 98334,
-    "Servicios de transporte público": "Dispone de autobuses interurbanos hacia Murcia, Cartagena, Almería, Granada, Madrid y Águilas (por obras en la línea de tren). El transporte urbano cuenta con 8 líneas gestionadas por Limusa, taxis disponibles y una red creciente de carriles bici. La estación de autobuses fue remodelada en 2010.",
-    "Limpieza": "La empresa municipal Limusa gestiona la limpieza urbana y recogida de residuos, implementando programas de separación y reciclaje desde 1986.",
-    "Actividades económicas": "Predominan la agricultura (especialmente cítricos y cultivos hortícolas), la ganadería, la industria, los servicios, el turismo cultural y la actividad comercial local.",
-    "Estilo arquitectónico": "La arquitectura refleja influencias árabes y moriscas, destacando monumentos como la Fortaleza del Sol (Castillo de Lorca), iglesias barrocas y la arquitectura tradicional en aldeas y pueblos cercanos.",
-    "Importancia histórica": "Ciudad históricamente estratégica situada en la frontera entre Murcia y Andalucía, con un relevante legado medieval y presencia notable durante la época nazarí.",
-    "Nivel de turismo": "Destino turístico destacado por su patrimonio cultural, casco histórico, castillo medieval, museos, sitios arqueológicos y parajes naturales como el Lomo de Bas.",
-    "Nivel educativo": "La Universidad de Murcia cuenta con un campus en Lorca, ofreciendo diversas titulaciones universitarias.",
-    "Calidad de vida": "Alta calidad de vida, favorecida por buenos servicios públicos, clima mediterráneo agradable (18°C media anual), proximidad a áreas naturales y deportivas, y una baja contaminación general.",
-    "Medio ambiente": "Cuenta con zonas verdes y parques naturales como el Lomo de Bas, políticas ambientales activas incluyendo movilidad sostenible y reciclaje, aunque con algunos desafíos en contaminación acústica y luminosa.",
-    "Seguridad": "Ciudad segura con servicios efectivos de Policía Local y servicios de emergencia, aunque sin especificarse detalles adicionales."
-  }
+        "País": "España",
+        "Comunidad autónoma": "Región de Murcia",
+        "Provincia": "Murcia",
+        "Número de habitantes": "98334",
+        "Servicios de transporte público": "Dispone de autobuses interurbanos hacia Murcia, Cartagena, Almería, Granada, Madrid y Águilas (por obras en la línea de tren). El transporte urbano cuenta con 8 líneas gestionadas por Limusa, taxis disponibles y una red creciente de carriles bici. La estación de autobuses fue remodelada en 2010.",
+        "Limpieza": "La empresa municipal Limusa gestiona la limpieza urbana y recogida de residuos, implementando programas de separación y reciclaje desde 1986.",
+        "Actividades económicas": "Predominan la agricultura (especialmente cítricos y cultivos hortícolas), la ganadería, la industria, los servicios, el turismo cultural y la actividad comercial local.",
+        "Estilo arquitectónico": "La arquitectura refleja influencias árabes y moriscas, destacando monumentos como la Fortaleza del Sol (Castillo de Lorca), iglesias barrocas y la arquitectura tradicional en aldeas y pueblos cercanos.",
+        "Importancia histórica": "Ciudad históricamente estratégica situada en la frontera entre Murcia y Andalucía, con un relevante legado medieval y presencia notable durante la época nazarí.",
+        "Nivel de turismo": "Destino turístico destacado por su patrimonio cultural, casco histórico, castillo medieval, museos, sitios arqueológicos y parajes naturales como el Lomo de Bas.",
+        "Nivel educativo": "La Universidad de Murcia cuenta con un campus en Lorca, ofreciendo diversas titulaciones universitarias.",
+        "Calidad de vida": "Alta calidad de vida, favorecida por buenos servicios públicos, clima mediterráneo agradable (18°C media anual), proximidad a áreas naturales y deportivas, y una baja contaminación general.",
+        "Medio ambiente": "Cuenta con zonas verdes y parques naturales como el Lomo de Bas, políticas ambientales activas incluyendo movilidad sostenible y reciclaje, aunque con algunos desafíos en contaminación acústica y luminosa.",
+        "Seguridad": "Ciudad segura con servicios efectivos de Policía Local y servicios de emergencia, aunque sin especificarse detalles adicionales."
+    }
 }
